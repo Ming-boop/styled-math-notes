@@ -1,0 +1,40 @@
+/* container look */
+.block {
+    margin: 1em 0;
+    padding: 0.65em 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+    border-left: 6px solid #888;
+}
+
+/* specific types */
+.block.definition {
+    border-left-color: #2b7a0b;
+    background: #f7fff3;
+}
+
+.block.theorem {
+    border-left-color: #0b63b8;
+    background: #f5fbff;
+}
+
+.block.proof {
+    border-left-color: #b86f0b;
+    background: #fffaf0;
+}
+
+/* small title label */
+.block .label {
+    font-weight: 700;
+    margin-bottom: 0.35em;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.05em;
+    opacity: 0.95;
+}
+
+/* optional: muted statement/italic proof marker */
+.block.definition em {
+    font-style: italic;
+    color: #333;
+}
