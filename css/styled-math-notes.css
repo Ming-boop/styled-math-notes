@@ -1,3 +1,11 @@
+/* force the browser to print (light) backgrounds */
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+
 /* container look */
 .block {
     margin: 1em 0;
