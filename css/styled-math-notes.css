@@ -36,6 +36,11 @@
     background: #fffaf0;
 }
 
+.block.followup {
+    border-left-color: #5a2e8a;
+    background: #f6f3fb;
+}
+
 /* small title label */
 .block .label {
     font-weight: 700;
