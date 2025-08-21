@@ -8,6 +8,11 @@
 }
 
 /* specific types */
+.block.problem {
+    border-left-color: #d75b4a;
+    background: #fff6f4;
+}
+
 .block.definition {
     border-left-color: #2b7a0b;
     background: #f7fff3;
