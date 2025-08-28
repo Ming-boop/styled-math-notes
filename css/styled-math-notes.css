@@ -21,6 +21,11 @@
     background: #fff6f4;
 }
 
+.block.example {
+    border-left-color: #f0c542;
+    background: #fff9e6;
+}
+
 .block.definition {
     border-left-color: #2b7a0b;
     background: #f7fff3;
