@@ -1,15 +1,37 @@
-# OS junk
+# --- OS junk
 .DS_Store
 Thumbs.db
 
-# Node/npm
+# --- Node / npm
 node_modules/
 
-# Logs
+# --- Logs
 *.log
 
-# Editor backups
+# --- Editor backups & IDE settings
 *.swp
 *.swo
 .vscode/
 .idea/
+
+# --- Generated documents (Markdown / LaTeX outputs)
+# Ignore all PDF output
+*.pdf
+
+# Common LaTeX auxiliary files
+*.aux
+*.lof
+*.lot
+*.toc
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex
+
+# --- Optional: common build caches (uncomment if relevant)
+# .cache/
+# build/
+# dist/
